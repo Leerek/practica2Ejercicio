@@ -1,12 +1,12 @@
 import collections
 
 
-def es_primo (num):
+def es_primo (num): #un profe me mando un ejemplo mas eficiente para saber si el numero es primo
     if num > 1:   # si es mayor a 1
         for i in range(2, num):
             if (num % i) == 0:
-                return False
-        return True
+                return False  # aca en el ejemplo que me mandaron habia un break pero no me gustaba y no es como estaba trabajando 
+        return True           #el enunciado asi que lo cambie
     else:
         return False
 
